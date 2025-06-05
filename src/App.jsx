@@ -9,7 +9,7 @@ function App() {
     { id: 2, title: '1984', author: 'George Orwell' },
     { id: 3, title: 'Dune', author: 'Frank Herbert' },
     { id: 4, title: 'Asachba', author: 'Unknown' },
-  ]);
+  ]); 
 
   const [searchTerm, setSearchTerm] = useState('');
 
@@ -29,8 +29,8 @@ function App() {
   return (
     <div className="p-4 max-w-xl mx-auto">
       <h1 className="text-2xl font-bold mb-4">Book List</h1>
-      <AddBookForm onAdd={addBook} />
       <SearchBar searchTerm={searchTerm} onSearch={setSearchTerm} />
+      <AddBookForm onAdd={addBook} />
       <BookList books={filteredBooks} />
     </div>
   );
