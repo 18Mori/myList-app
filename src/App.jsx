@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import BookList from './components/BookList';
-import AddBookForm from './components/AddBookForm';
-import SearchBar from './components/SearchBar';
+import BookList from './Components/BookList';
+import AddBookForm from './Components/AddBookForm';
+import SearchBar from './Components/SearchBar';
 
 function App() {
   const [books, setBooks] = useState([
