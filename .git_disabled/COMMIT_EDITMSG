@@ -1,0 +1,3 @@
+Ignore untracked files
+
+This commit adds a .gitignore file to prevent the accidental inclusion of untracked files in the repository. These files include system-specific files, IDE configuration files, and other files that are not relevant to the project. Ignoring these files will help to keep the repository clean and prevent accidental commits of sensitive information.
